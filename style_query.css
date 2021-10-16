@@ -1,0 +1,51 @@
+@media (max-width: 600px){
+
+    .menu.active{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        z-index: 10;
+    }
+
+    .menu.active ul{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: calc(100% - 60px);
+
+        bottom: 0;
+        align-items: center;
+
+        position: absolute;
+    }
+
+    .menu.active ul li{
+        width: 100%;
+        margin: 0
+    }
+
+
+    .menu.active .logo h1{
+        position: absolute;
+        left: 14px;
+        top: 14px;
+    }
+
+    .menu.active .menu-hamburguer{
+        position: absolute;
+        top: 14px;
+        right: 14px;
+    }
+
+    .menu > ul{
+        display: none;
+    }
+    .menu .menu-hamburguer{
+        display: flex;
+    }
+
+}
